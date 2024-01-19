@@ -1,5 +1,5 @@
 def parrot(message="Squawk!"):
-    print("Parrot says:", message)
+    print(message)
     return message
 
 
@@ -10,3 +10,5 @@ print("Returned message:", result)
 
 default_result = parrot()
 print("Returned default message:", default_result)
+
+parrot()
